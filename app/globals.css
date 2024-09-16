@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.wrapper {
+  @apply w-full px-[1.5rem] mx-auto md:w-[90%] xl:w-[85%];
+}
+
+.footer-grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .footer-grid {
+    grid-template-columns: 3fr 1fr 1fr 1fr;
+  }
+}
