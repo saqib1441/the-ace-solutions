@@ -65,7 +65,7 @@ const Testimonials = () => {
                     <span className="text-main">{testimonial.name}</span> /{" "}
                     <span>{testimonial.role}</span>
                   </h1>
-                  <p className="text-secondary w-[75%] mx-auto text-center">
+                  <p className="text-secondary lg:w-[75%] mx-auto text-center">
                     {testimonial.description}
                   </p>
                 </div>
