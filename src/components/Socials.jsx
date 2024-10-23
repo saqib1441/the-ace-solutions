@@ -7,19 +7,22 @@ const Socials = () => {
     <div className="flex gap-5">
       <Link
         href="https://facebook.com"
-        className="bg-main flex justify-center items-center w-8 h-8 rounded-md text-lg hover:scale-110 transition-all duration-300"
+        className="bg-white flex justify-center items-center w-8 h-8 rounded-md text-lg hover:scale-110 transition-all duration-300 hover:bg-main text-black hover:text-white"
+        target="_blank"
       >
         <FaFacebookF />
       </Link>
       <Link
         href="https://linkedin.com"
-        className="bg-main flex justify-center items-center w-8 h-8 rounded-md text-lg hover:scale-110 transition-all duration-300"
+        className="bg-white flex justify-center items-center w-8 h-8 rounded-md text-lg hover:scale-110 transition-all duration-300 hover:bg-main text-black hover:text-white"
+        target="_blank"
       >
         <FaLinkedinIn />
       </Link>
       <Link
         href="https://instagram.com"
-        className="bg-main flex justify-center items-center w-8 h-8 rounded-md text-lg hover:scale-110 transition-all duration-300"
+        className="bg-white flex justify-center items-center w-8 h-8 rounded-md text-lg hover:scale-110 transition-all duration-300 hover:bg-main text-black hover:text-white"
+        target="_blank"
       >
         <FaInstagram />
       </Link>

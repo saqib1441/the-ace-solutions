@@ -2,13 +2,17 @@ import SectionTitle from "@/components/SectionTitle";
 import Image from "next/image";
 import Link from "next/link";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa6";
-import Team1 from "@/assets/team/team_1.png";
+import MShoaib from "@/assets/team/m_shoaib.png";
+import SaqibAli from "@/assets/team/saqib_ali.png";
+import AhmadNadeem from "@/assets/team/ahmad_nadeem.png";
+import AdeelAbbas from "@/assets/team/adeel_abbas.png";
+import AhmadAli from "@/assets/team/ahmad_ali.png";
 import Contact from "@/components/Contact";
 
 const About = () => {
   const data = [
     {
-      imgSrc: Team1,
+      imgSrc: MShoaib,
       position: "Founder & CEO",
       name: "Muhammad Shoaib",
       field: "Senior Graphic Designer",
@@ -28,47 +32,47 @@ const About = () => {
       ],
     },
     {
-      imgSrc: Team1,
+      imgSrc: SaqibAli,
       position: "Project Manager",
       name: "Saqib Ali",
       field: "Senior Full Stack Developer",
       socilas: [
         {
           icon: <FaFacebookF />,
-          url: "facebook.com",
+          url: "https://www.facebook.com/msaqib.ali.31392",
         },
         {
           icon: <FaLinkedinIn />,
-          url: "linkedin.com",
+          url: "https://www.linkedin.com/in/m-saqib-ali",
         },
         {
           icon: <FaInstagram />,
-          url: "instagram.com",
+          url: "https://www.instagram.com/saqib_ali_ig",
         },
       ],
     },
     {
-      imgSrc: Team1,
+      imgSrc: AhmadNadeem,
       position: "Team Leader",
       name: "Ahmad Nadeem",
       field: "Senior UX/UI Designer",
       socilas: [
         {
           icon: <FaFacebookF />,
-          url: "facebook.com",
+          url: "https://www.facebook.com/share/daLuZWuAhrAASSqp/",
         },
         {
           icon: <FaLinkedinIn />,
-          url: "linkedin.com",
+          url: "https://www.linkedin.com/in/ahmad-nadeem-432ba02b3",
         },
         {
           icon: <FaInstagram />,
-          url: "instagram.com",
+          url: "https://www.instagram.com/ahmadcreations12",
         },
       ],
     },
     {
-      imgSrc: Team1,
+      imgSrc: AdeelAbbas,
       position: "Marketing Manager",
       name: "Adeel Abbas",
       field: "Video Editing Expert",
@@ -88,22 +92,22 @@ const About = () => {
       ],
     },
     {
-      imgSrc: Team1,
+      imgSrc: AhmadAli,
       position: "Assistant Project Manager",
       name: "Ahmad Ali",
       field: "Full Stack Developer",
       socilas: [
         {
           icon: <FaFacebookF />,
-          url: "facebook.com",
+          url: "https://www.facebook.com/ahmadali261.1",
         },
         {
           icon: <FaLinkedinIn />,
-          url: "linkedin.com",
+          url: "https://www.linkedin.com/in/ahmadali261",
         },
         {
           icon: <FaInstagram />,
-          url: "instagram.com",
+          url: "https://www.instagram.com/ahmadali261.1",
         },
       ],
     },
@@ -143,6 +147,7 @@ const About = () => {
                         href={social.url}
                         className="w-10 h-10 border-2
                        rounded-full flex items-center justify-center text-lg border-main hover:bg-main hover:text-white transition-all duration-300"
+                        target="_blank"
                       >
                         {social.icon}
                       </Link>

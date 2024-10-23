@@ -3,8 +3,9 @@ import Image from "next/image";
 import Testimonial1 from "@/assets/testimonials/testimonial_1.png";
 
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
+import { Autoplay, EffectFade, Pagination } from "swiper/modules";
 import "swiper/swiper-bundle.css";
+import SectionTitle from "./SectionTitle";
 
 const Testimonials = () => {
   const data = [
@@ -34,18 +35,22 @@ const Testimonials = () => {
     <main className="bg-testimonialImg bg-center bg-no-repeat lg:bg-sizeLg bg-size h-[100vh]">
       <div className="py-20 lg:py-28 wrapper">
         <div className="mb-10">
-          <h1 className="text-center text-4xl font-bold">
-            <span className="text-main">Testimonials</span>
-          </h1>
-          <p className="font-semibold text-xl text-center">
-            Trust of our clients
-          </p>
+          <SectionTitle
+            title="Testimonial"
+            description="Discover what our satisfied clients have to say about their experiences with us. Our commitment to excellence and customer satisfaction shines through in their words. Read on to see how we've made a difference for businesses like yours!"
+          />
         </div>
         <Swiper
-          modules={[Pagination]}
+          modules={[Pagination, Autoplay]}
           pagination={{ clickable: true }}
           slidesPerView={1}
           spaceBetween={10}
+          autoplay={{
+            delay: 3000,
+            pauseOnMouseEnter: true,
+          }}
+          loop={true}
+          speed={1000}
         >
           {data &&
             data.map((testimonial, key) => (

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ServicesCard = ({ img = "", title = "", description = "" }) => {
   return (
-    <div className="flex flex-col items-center gap-3 shadow-shadowPrimary py-16 px-10 rounded-md sm:px-5 h-full">
+    <div className="flex flex-col items-center gap-3 shadow-shadowPrimary py-16 px-10 rounded-md sm:px-5 h-full hover:scale-105 cursor-pointer transition-all duration-300">
       <div className="w-20 h-20 bg-main/10 rounded-full flex justify-center items-center">
         <Image
           src={img}

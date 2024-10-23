@@ -26,10 +26,11 @@ const ServicesPage = () => {
                 />
               </div>
               <div className="w-[80%]">
-                <h1>Digital Solution</h1>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Mollitia, ullam.
+                <h1 className="font-semibold">Digital Solution</h1>
+                <p className="text-secondary">
+                  Digital solutions streamline processes, enhance productivity,
+                  and foster innovation through technology-driven tools and
+                  platforms.
                 </p>
               </div>
             </div>
@@ -42,10 +43,11 @@ const ServicesPage = () => {
                 />
               </div>
               <div className="w-[80%]">
-                <h1>Timely and Efficient Delivery</h1>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Mollitia, ullam.
+                <h1 className="font-semibold">Timely and Efficient Delivery</h1>
+                <p className="text-secondary">
+                  Timely and efficient delivery ensures prompt service, meeting
+                  customer expectations while optimizing resource management and
+                  workflow.
                 </p>
               </div>
             </div>
@@ -58,10 +60,10 @@ const ServicesPage = () => {
                 />
               </div>
               <div className="w-[80%]">
-                <h1>Innovative Approach</h1>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Mollitia, ullam.
+                <h1 className="font-semibold">Innovative Approach</h1>
+                <p className="text-secondary">
+                  An innovative approach involves creative thinking and novel
+                  strategies to solve problems and drive progress.
                 </p>
               </div>
             </div>

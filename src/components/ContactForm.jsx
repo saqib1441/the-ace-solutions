@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FiPhoneCall } from "react-icons/fi";
 import { LiaEnvelopeOpenTextSolid } from "react-icons/lia";
 
@@ -42,7 +43,13 @@ const ContactForm = () => {
           </span>
           <div>
             <h1 className="font-semibold">PHONE</h1>
-            <p className="text-main">+92307 0234217</p>
+            <Link
+              href="https://wa.me/+923070234217"
+              className="text-main"
+              target="_blank"
+            >
+              +92307 0234217
+            </Link>
           </div>
         </div>
         <div className="flex gap-4 items-center">
@@ -51,7 +58,13 @@ const ContactForm = () => {
           </span>
           <div>
             <h1 className="font-semibold">EMAIL</h1>
-            <p className="text-main text-wrap">theacezpr@gmail.com</p>
+            <Link
+              href="mailto:theacezpr@gmail.com"
+              className="text-main text-wrap"
+              target="_blank"
+            >
+              theacezpr@gmail.com
+            </Link>
           </div>
         </div>
       </div>
