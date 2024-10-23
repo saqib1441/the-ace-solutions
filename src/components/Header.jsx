@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="py-20 lg:flex lg:py-28">
       <div className="flex flex-col items-center text-center gap-5 lg:w-[50%] lg:text-start lg:items-start justify-center">
-        <h1 className="font-bold text-4xl lg:text-[40px] lg:leading-[1] 2xl:text-5xl">
+        <h1 className="font-bold text-4xl lg:text-[40px] lg:leading-[50px] 2xl:text-5xl">
           We Help to <span className="text-main">Grow Your Business</span> With
           our Creative Solutions
         </h1>
