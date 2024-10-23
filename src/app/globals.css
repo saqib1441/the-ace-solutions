@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer {
+  body {
+    @apply overflow-x-hidden;
+  }
+  .wrapper {
+    @apply w-[90%] mx-auto md:w-[85%] lg:w-[80%];
+  }
+
+  .btn {
+    @apply bg-main rounded-full px-5 py-2 text-white font-[500];
+  }
+}
+
+.swiper-pagination-bullet {
+  background-color: #f61b1e !important;
+}
