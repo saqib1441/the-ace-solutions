@@ -9,8 +9,8 @@ const ContactForm = () => {
           Get in <span className="text-main">Touch</span>
         </h1>
         <p className="text-secondary">
-          Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
-          molestie vel, ornare non id blandit netus.
+          We&#39;re here to help! Reach out with your questions, feedback, or
+          inquiries, and our team will respond promptly.
         </p>
       </div>
       <form className="mt-10 flex flex-col gap-3 lg:mt-5">
