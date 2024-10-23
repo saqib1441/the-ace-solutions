@@ -2,9 +2,9 @@ import Image from "next/image";
 import DigitalSolutions from "@/assets/services/digital_solutions_service.png";
 import EfficientDelivery from "@/assets/services/efficient_delivery_service.png";
 import InnovativeApproach from "@/assets/services/innovative_approach_service.png";
-import Hero from "@/assets/hero.png";
 import Services from "@/components/Services";
 import Contact from "@/components/Contact";
+import LottieAnimation from "@/components/LottieAnimation";
 
 const ServicesPage = () => {
   return (
@@ -68,11 +68,7 @@ const ServicesPage = () => {
           </div>
         </div>
         <div className="mt-10 lg:w-[50%] lg:-mt-10">
-          <Image
-            src={Hero}
-            alt="the-ace-solutions-services"
-            className="h-[300px] w-auto mx-auto sm:h-[350px] lg:h-auto lg:w-[500px]"
-          />
+          <LottieAnimation />
         </div>
       </div>
       <div className="wrapper">

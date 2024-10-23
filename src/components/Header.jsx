@@ -1,6 +1,5 @@
 import Link from "next/link";
-import Hero from "@/assets/hero.png";
-import Image from "next/image";
+import LottieAnimation from "./LottieAnimation";
 
 const Header = () => {
   return (
@@ -20,12 +19,8 @@ const Header = () => {
           Contact us
         </Link>
       </div>
-      <div className="mt-10 lg:w-[50%] lg:-mt-10">
-        <Image
-          src={Hero}
-          alt="the-ace-solutions-hero"
-          className="h-[300px] w-auto mx-auto sm:h-[350px] lg:h-auto lg:w-[450px] 2xl:w-[500px]"
-        />
+      <div className="mt-10 lg:w-[50%] lg:-mt-10 h-[500px]">
+        <LottieAnimation />
       </div>
     </header>
   );
