@@ -32,7 +32,7 @@ const Navbar = () => {
         >
           <Link
             href="/"
-            className={`hover:text-main transition-all duration-300 before:absolute before:bg-main relative before:w-0 before:h-[3px] before:-bottom-[3px] before:rounded-full before:hover:w-full before:transition-all before:duration-300 ${
+            className={`hover:text-main transition-all duration-300  ${
               pathname === "/" ? "text-main" : ""
             }`}
             onClick={NavbarHandler}
@@ -41,7 +41,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/about"
-            className={`hover:text-main transition-all duration-300 before:absolute before:bg-main relative before:w-0 before:h-[3px] before:-bottom-[3px] before:rounded-full before:hover:w-full before:transition-all before:duration-300 ${
+            className={`hover:text-main transition-all duration-300 ${
               pathname === "/about" ? "text-main" : ""
             }`}
             onClick={NavbarHandler}
@@ -50,7 +50,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/services"
-            className={`hover:text-main transition-all duration-300 before:absolute before:bg-main relative before:w-0 before:h-[3px] before:-bottom-[3px] before:rounded-full before:hover:w-full before:transition-all before:duration-300 ${
+            className={`hover:text-main transition-all duration-300 ${
               pathname === "/services" ? "text-main" : ""
             }`}
             onClick={NavbarHandler}
@@ -59,7 +59,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/portfolio"
-            className={`hover:text-main transition-all duration-300 before:absolute before:bg-main relative before:w-0 before:h-[3px] before:-bottom-[3px] before:rounded-full before:hover:w-full before:transition-all before:duration-300 ${
+            className={`hover:text-main transition-all duration-300 ${
               pathname === "/portfolio" ? "text-main" : ""
             }`}
             onClick={NavbarHandler}
@@ -68,7 +68,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/contact"
-            className={`hover:text-main transition-all duration-300 before:absolute before:bg-main relative before:w-0 before:h-[3px] before:-bottom-[3px] before:rounded-full before:hover:w-full before:transition-all before:duration-300 ${
+            className={`hover:text-main transition-all duration-300 ${
               pathname === "/contact" ? "text-main" : ""
             }`}
             onClick={NavbarHandler}
